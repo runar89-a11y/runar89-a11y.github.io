@@ -1,3 +1,9 @@
 {
-  "_note": "Remote tuning for Camp Hustle 1.x. Only keys that exist in src/config/balance.ts are used, with the same type. Empty means the built-in numbers. Changes reach players on their next app start."
+  "_note": "Remote tuning for Camp Hustle 1.x. Only keys that exist in src/config/balance.ts are used, with the same type. Changes reach players on their next app start. TEST WINDOW: the holiday block below runs a test event (id xmas26-test) until 22 Nov so 1.2 can be tried in internal testing; it ends by itself and must be removed before 1.2 goes to production.",
+  "holiday": {
+    "id": "xmas26-test",
+    "start": "2026-11-02",
+    "end": "2026-11-22",
+    "bundleFrom": "2026-11-02"
+  }
 }
