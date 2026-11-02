@@ -1,0 +1,3 @@
+{
+  "_note": "Remote tuning for Camp Hustle 1.x. Only keys that exist in src/config/balance.ts are used, with the same type. Empty means the built-in numbers. Changes reach players on their next app start."
+}
